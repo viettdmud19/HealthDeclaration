@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "VerifyAccount";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<style type="text/css">
+    h2 {
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #5c6bc0;
+        font-size: 25px;
+    }
+</style>
+
+<h2>Phản hồi thông tin </h2>
+
+@if (ViewBag.Status != null && Convert.ToBoolean(ViewBag.Status))
+{
+    <div class="alert alert-success">
+        <strong>Success!</strong>Tài khoản của bạn đã được kích hoạt thành công. Click here to @Html.ActionLink("Đăng Nhập", "DangNhapNV", "NhanVien")
+    </div>
+}
+else
+{
+    <div class="alert alert-danger">
+        <strong>Error!</strong>@ViewBag.Message
+    </div>
+}

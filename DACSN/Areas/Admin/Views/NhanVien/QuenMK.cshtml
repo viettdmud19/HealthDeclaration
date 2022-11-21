@@ -1,0 +1,42 @@
+﻿
+@{
+    Layout = null;
+}
+
+@using DACSN.Models;
+@model DACSN.Models.ForgotPassword
+
+
+<title>Quên mật khẩu</title>
+<link rel="SHORTCUT ICON" href="~/Images/LogoBD.ico">
+<link href="~/CSS/DangNhapNV.css" rel="stylesheet" />
+<style type="text/css">
+    .container {
+        height: 400px;
+    }
+
+    .footer {
+        top: 470px;
+    }
+
+    .text-success {
+        color: blue;
+    }
+</style>
+
+<div class="animated bounceInDown">
+    <div class="container">
+        <div class="text-success">
+            @ViewBag.Message
+        </div>
+
+        <form name="form1" class="box" @*action="/NhanVien/DangNhapNV"*@ method="post">
+            <h4>Personnel<span>Dashboard</span></h4>
+            <h5>Please enter your Email.</h5>
+            <input type="text" name="EmailID" placeholder="Email của bạn">
+            <i class="typcn typcn-eye" id="eye"></i>
+            <button type="submit" class="btn1">Send</button>
+        </form>
+        <a href="@Url.Action("DangNhapNV","NhanVien")" class="dnthave">Already have an account? Log In</a>
+    </div>
+</div>

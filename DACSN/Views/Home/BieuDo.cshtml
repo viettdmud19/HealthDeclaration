@@ -1,0 +1,76 @@
+﻿<h3>Thống kê Tình hình COVID (1 tháng)</h3>
+<div style="overflow:scroll ; height:320px">
+    <table id="bieudo" class="table table-striped ">
+    </table>
+
+    <script>
+        var listCoursesBlock1 = document.querySelector('#bieudo')
+        fetch('https://static.pipezero.com/covid/data.json')
+            .then(res => res.json())
+            .then(function (datas) {
+                var course = datas.overview; var template = `
+
+         <thead>
+                   <tr class="text-primary">
+                             <th> Ngày </th>
+                             <th> Số ca nhiễm </th>
+                             <th > Phục hồi </th>
+                             <th style="color:red"> Tử vong </th>
+                             </tr>
+                             </thead>`;
+                course.forEach((element) => {
+                    template += `
+             <tbody>
+             <tr>
+                     <td style="color:blue"> ${element.date}    </td>
+                 <td>  ${element.cases}       </td>
+                 <td style="color:green">  ${element.recovered}   </td>
+                 <td style="color:red"> + ${element.death}       </td>
+             </tr>
+             </tbody>
+
+         `;
+                });
+                listCoursesBlock1.innerHTML = template;
+
+
+            })
+    </script>
+</div>
+
+<div>
+    <h3>Trung bình trong 7 ngày</h3>
+    <table id="bieudo1" class="table table-striped">
+    </table>
+    <script>
+        var listCoursesBlock2 = document.querySelector('#bieudo1')
+        fetch('https://static.pipezero.com/covid/data.json')
+            .then(res => res.json())
+            .then(function (datas) {
+                var avg = datas.overview[6];
+                listCoursesBlock2.innerHTML = `
+
+                    <table class="table table-striped">
+                     <thead>
+                               <tr class="text-primary">
+                                         <th>  số ca nhiễm </th>
+                                         <th>  số ca hồi phục </th>
+                                         <th style="color:red">  cố ca tử vong </th>
+
+                                         </tr>
+                                         </thead>
+
+                         <tbody>
+                         <tr>
+                              <td><h3 style="color:blue">${avg.avgCases7day}</h3>  </td>
+                             <td> <h3 style="color:blue">${avg.avgRecovered7day}</h3>   </td>
+                             <td><h3 style="color:red">${avg.avgDeath7day}</h3> </td>
+
+                         </tr>
+                         </tbody>
+                    <table>
+
+                     `;
+            });
+    </script>
+</div>

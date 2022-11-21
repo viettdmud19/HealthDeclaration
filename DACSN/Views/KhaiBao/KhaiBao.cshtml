@@ -1,0 +1,400 @@
+﻿
+@model DACSN.Models.CountryClass
+
+@*@using BotDetect.Web.Mvc;
+<link href="@BotDetect.Web.CaptchaUrls.Absolute.LayoutStyleSheetUrl"
+      rel="stylesheet" type="text/css" />
+@{
+    MvcCaptcha KhaiBaoCaptcha = new MvcCaptcha("KhaiBaoCaptcha");
+    KhaiBaoCaptcha.UserInputID = "CaptchaCode";
+}*@
+@{
+    ViewBag.Title = "KhaiBao";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+    <style type="text/css">
+        .kb h2 {
+            text-align: center;
+            font-weight: bold;
+            color: darkblue;
+            padding: 5px;
+        }
+
+        .nd-kb {
+            padding: 0 0 40px 0;
+        }
+
+            .nd-kb h3 {
+                text-align: center;
+                padding: 45px 0 20px 0;
+                font-weight: bolder;
+            }
+
+        .input input:hover {
+            cursor: pointer;
+            border: 2px solid blue;
+        }
+
+        .valid:hover {
+            cursor: pointer;
+            border: 2px solid blue;
+        }
+
+        .col-sm-12 {
+            padding-bottom: 20px;
+        }
+
+        #customer {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+            #customer tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            #customer tr:hover {
+                background-color: #ddd;
+            }
+
+            #customer th {
+                padding-top: 12px;
+                text-align: left;
+                background-color: #04AA6D;
+                color: white;
+            }
+
+            #customer td, #customer th {
+                border: 1px solid #ddd;
+                padding: 8px;
+                padding-bottom: 15px;
+            }
+
+        .text-center {
+            display: inline-block;
+            text-align: center;
+            height: 60px;
+            cursor: pointer;
+        }
+    </style>
+}
+<div class="col-lg-12">
+
+    <div class="kb">
+        <h2>TỜ KHAI BÁO Y TẾ</h2>
+    </div>
+
+</div>
+
+<hr />
+<div class="col-lg-12 " style="background-color:gainsboro">
+    @using (Html.BeginForm("KhaiBao", "KhaiBao"))
+    {
+        <div class="nd-kb">
+            <div class="btn-submit-box text-center"> <button type="reset" class="btn btn-success">CẬP NHẬT TỜ KHAI</button> </div>
+
+            <h3>Thông Tin Khai Báo Y Tế</h3>
+
+            <h5 style="text-align:center ; padding:0 0 10px 0 ">(Phòng chống dịch Covid 19)</h5>
+            <h6 style="text-align: center ; color:red">Khuyến cáo: Khai báo thông tin sai là vi phạm pháp luật Việt Nam và có thể xử lý hình sự</h6>
+        </div>
+        <div class="nd-ct">
+            <h4 style="font-weight:bolder">
+                Thông tin cá nhân
+            </h4><hr />
+
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="col-md-3 col-sm-3">
+                    <div class="form-group">
+
+
+                        <label style="font-weight:bolder">
+                            Họ Tên (Ghi Họ Tên Đầy Đủ)
+                        </label>
+                        <div class="input">
+                            <input type="text" name="HovaTen" placeholder="-- --  Thông tin ......" style="height:35px ;width:100% " required/>
+                            
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-3 col-sm-3">
+                    <div class="form-group">
+
+                        <label style="font-weight:bolder">
+                            ( Số hộ chiếu )/ CMND / CCCD
+                        </label>
+
+                        <input type="text" name="CMND" placeholder="-- --  Thông tin ......" style="height:35px ;width:100% " required />
+                       
+
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-3 col-sm-3">
+                    <div class="form-group">
+                        <label style="font-weight:bolder">
+                            Quốc Tịch
+                        </label>
+                        <select id="input37889" name="quoctich" style="height:35px ;width:100%" class="form-control">
+
+                            <option value="">Chọn</option>
+                            <option value="Việt Nam" selected="selected">Việt Nam</option>
+
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="col-md-2"></div>
+
+                <div class="col-md-3 col-sm-3">
+                    <div class="form-group">
+                        <label style="font-weight:bolder">
+                            Năm sinh
+                        </label>
+
+                        <input type="date" name="ngaysinh" placeholder="" style="height:35px ;width:100%" required/>
+                      
+
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+
+                <div class="col-md-5 col-sm-5">
+                    <div class="form-group">
+                        <label style="font-weight:bolder">
+                            Giới Tính
+                        </label>
+                        <div class="input">
+                            <div class="col-md-1 col-sm-1">
+                                @Html.RadioButton("Gender", "Nam")
+                                <label>Nam</label>
+                            </div>
+                            <div class="col-md-1 col-sm-2">
+                                @Html.RadioButton("Gender", "Nữ")
+                                <label>Nữ</label>
+                            </div>
+                            <div class="col-md-2 col-sm-2">
+
+                                @Html.RadioButton("Gender", "Khác")
+                                <label>Khác</label>
+                            </div>
+
+                        </div>
+                      
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <hr />
+        <h4 style="font-weight:bolder">
+            Địa chỉ liên lạc tại Việt Nam
+        </h4><hr />
+             <div class="col-lg-12 col-md-12 col-sm-12">
+                
+                     <div class="col-md-4 col-sm-4">
+                         <div class="form-group">
+                             @if (ViewBag.ProvinceList != null)
+                             {
+                                 <label style="font-weight:bolder">
+                                     Tỉnh thành
+                                 </label>
+                                 @Html.DropDownListFor(model => model.IdProvince, ViewBag.ProvinceList as SelectList, "---- Select ----", new { @class = "form-control" })
+                                 @*@Html.ValidationMessageFor(model => model.TinhThanh, "", new { @class = "text-danger" })*@
+                             }
+                         </div>
+                     </div>
+              
+
+                     <div class="col-md-4 col-sm-4">
+                         <div class="form-group">
+                             <label style="font-weight:bolder">
+                                 Quận / huyện
+                             </label>
+
+                             @Html.DropDownListFor(model => model.IdDistrict, new SelectList(" "), "---- Select ----", new { @class = "form-control" })
+                         </div>
+
+                     </div>
+
+                     <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+                     <script>
+                         $(document).ready(function () {
+                             $("#IdProvince").change(function () {
+                                 var IdProvince = $(this).val();
+                                 debugger
+                                 $.ajax({
+                                     type: "post",
+                                     url: "/KhaiBao/GetDistrictList?IdProvince=" + IdProvince,
+                                     contentType: "html",
+                                     success: function (response) {
+                                         debugger
+                                         $("#IdDistrict").empty();
+                                         $("#IdDistrict").append(response);
+                                     }
+                                 })
+                             })
+                         })
+                     </script>
+                     <div class="col-md-4 col-sm-4">
+                         <div class="form-group">
+                             <label style="font-weight:bolder">
+                                 Phường / xã
+                             </label>
+                             <div class="input">
+                                 @Html.DropDownListFor(model => model.IdWard, new SelectList(" "), "---- Select ----", new { @class = "form-control" })
+                             </div>
+
+                         </div>
+                     </div>
+                     <script>
+                         $(document).ready(function () {
+                             $("#IdDistrict").change(function () {
+                                 var IdDistrict = $(this).val();
+                                 debugger
+                                 $.ajax({
+                                     type: "post",
+                                     url: "/KhaiBao/GetWardList?IdDistrict=" + IdDistrict,
+                                     contentType: "html",
+                                     success: function (response) {
+                                         debugger
+                                         $("#IdWard").empty();
+                                         $("#IdWard").append(response);
+                                     }
+                                 })
+                             })
+                         })
+                     </script>
+                 </div>
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="col-md-3 col-sm-3">
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div class="form-group" >
+                    <label style="font-weight:bolder">
+                        Số nhà, phố, tổ dân phố/thôn/đội
+                    </label>
+                    <div class="input">
+                        <input type="text"  name="diachi" placeholder="-- --  Thông tin ......" style="height:35px ;width:100%" />
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12">
+
+            <div class="col-md-2 col-sm-2">
+            </div>
+            <div class="col-md-3 col-sm-3">
+                <div class="form-group">
+                    <label style="font-weight:bolder">
+                        Điện thoại
+                    </label>
+                    <div class="input">
+                        <input type="text" name="dienthoai" placeholder="-- --  Thông tin ......" style="height:35px ;width:100%"  required/>
+                       
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-1 col-sm-1">
+            </div>
+            <div class="col-md-5 col-sm-5">
+                <div class="form-group">
+                    <label style="font-weight:bolder">
+                        Email
+                    </label>
+                    <div class="input">
+                        <input type="email" name="email" placeholder="-- --  Thông tin ......" style="height:35px ;width:100%" required />
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <h5 style="font-weight:bold">Trong vòng 14 ngày qua, Anh/Chị có thấy xuất hiện ít nhất 1 trong các dấu hiệu: sốt, ho, khó thở, viêm phổi, đau họng, mệt mỏi không?</h5>
+            <div class="col-md-1 col-sm-1">
+                @Html.RadioButton("Check", " Có xuất hiện vài dấu hiệu bất thường : ")
+                <label>Có</label>
+            </div>
+            <div class="col-md-1 col-sm-1">
+                @Html.RadioButton("Check", "Không xuất hiện tình trạng gì")
+                <label>Không</label>
+            </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <h5 style="font-weight:bold; color:red"> Nếu có dấu hiệu, ghi rõ chi tiết</h5>
+            <textarea name="tinhtrang" class="area" style="width:100% ; background-color:lightgreen "></textarea>
+
+        </div>
+
+
+
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <h5 style="font-weight:bold">Trong vòng 14 ngày qua, Anh/Chị có tiếp xúc với ?</h5>
+            <table id="customer">
+                <tr>
+                    <th></th>
+                    <th>Có</th>
+                    <th>Không</th>
+                </tr>
+                <tr>
+                    <td>Người bệnh hoặc nghi ngờ, mắc bệnh COVID-19</td>
+                    <td>
+                        @Html.RadioButton("Radio1", "True")
+                    </td>
+                    <td>
+                        @Html.RadioButton("Radio1", "False")
+                    </td>
+                </tr>
+                <tr>
+                    <td>Người từ nước có bệnh COVID-19</td>
+                    <td>
+                        @Html.RadioButton("Radio2", "True")
+                    </td>
+                    <td>
+                        @Html.RadioButton("Radio2", "False")
+                    </td>
+                </tr>
+                <tr>
+                    <td>Người có biểu hiện (Sốt, ho, khó thở , Viêm phổi)</td>
+                    <td>
+                        @Html.RadioButton("Radio3", "True")
+                    </td>
+                    <td>
+                        @Html.RadioButton("Radio3", "False")
+                    </td>
+                </tr>
+            </table>
+        </div>
+        @*<div class="row">
+                    <div class="form-group">
+
+                @Html.Captcha(KhaiBaoCaptcha)
+                @Html.TextBox("CaptchaCode")
+            </div>
+                </div>*@
+        <div>
+
+            <h5 style="text-align: center ; color:red">
+                Dữ liệu bạn cung cấp hoàn toàn bảo mật và chỉ phục vụ cho việc phòng chống dịch, thuộc quản lý của Ban chỉ đạo quốc gia về Phòng chống dịch Covid-19.<br />
+                Khi bạn nhấn nút "Gửi" là bạn đã hiểu và đồng ý.
+            </h5>
+        </div>
+        <hr />
+        <div class="btn-submit-box text-center"> <button type="submit" class="btn btn-success">Gửi tờ khai</button> </div>
+
+        @*</div>*@
+    }
+</div>
+
+

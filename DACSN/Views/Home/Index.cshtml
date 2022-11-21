@@ -1,0 +1,183 @@
+﻿
+@{ ViewBag.Title = "Trang Chủ";
+                Layout = "~/Views/Shared/_LayoutUser.cshtml"; }
+
+<div class="col-lg-12">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="container text-center"><button class="btn btn-primary" id=btn1>Covid 19 - Thế Giới</button>
+                <button class="btn btn-primary" id=btn1-vn>Covid 19 - Việt Nam</button></div>
+            <div class="container text-center col-lg-8 " id=results>
+
+            </div>
+            <script>
+                var btn1 = document.getElementById("btn1");
+                var btn1_vn = document.getElementById("btn1-vn");
+                btn1_vn.addEventListener('click', () => {
+
+                    // fetch request to api
+
+                   
+                    fetch('https://static.pipezero.com/covid/data.json')
+                        .then(res => res.json())
+                        .then(function (datas) {
+                            var course = datas.total.internal;
+                            var course1 = datas.today.internal;
+                            results.innerHTML = `
+                <h2><img src="https://disease.sh/assets/img/flags/vn.png">Việt Nam</h2>
+                <table class="table table-striped">
+                 <thead>
+                           <tr class="text-primary">
+                                     <th> Tổng ca nhiễm </th>
+                                     <th> Hồi phục </th>
+                                     <th style="color:red"> Tử vong </th>
+                                    
+                                     </tr>
+                                     </thead>
+                           
+                     <tbody>
+                     <tr>
+                          <td>  <h3 style="color:blue">${course.cases}</h3>
+                                <p style="color:red">Hôm nay : + ${course1.cases}  </p>
+                            </td>
+                         <td>  <h3 style="color:blue">${course.recovered}</h3>
+                                 <p style="color:green">Hôm nay : + ${course1.recovered}  </p>
+                        </td>
+                         <td> <h3 style="color:red">${course.death}</h3>
+                                <p style="color:red">Hôm nay : + ${course1.death}  </p>
+                        </td>
+                       
+                     </tr>
+                     </tbody>
+                <table>
+
+                 `;
+                            });
+                          
+
+
+                        })
+          
+  
+    btn1.addEventListener('click', () => {
+
+        // fetch request to api
+        fetch('https://corona.lmao.ninja/v2/countries')
+            .then(res => res.json())
+            .then(function (datas) {
+                var sum = datas;
+                var sumsum1 = 0;
+                var sumsum2 = 0;
+                var sumsum3 = 0;
+                var sums1 = 0;
+                var sums2 = 0;
+                var sums3 = 0;
+                sum.forEach((element) => {
+                    sums1 += element.todayCases;
+                    sumsum1 += element.cases;
+                    sumsum2 += element.recovered;
+                    sumsum3 += element.deaths;
+                    sums2 += element.todayRecovered;
+                    sums3 += element.todayDeaths;
+                });
+                results.innerHTML = `
+                <h2> Thế Giới</h2>
+                <table class="table table-striped">
+                 <thead>
+                           <tr class="text-primary">
+                                     <th> Tổng ca nhiễm </th>
+                                     <th> Hồi phục </th>
+                                     <th style="color:red"> Tử vong </th>
+                                    
+                                     </tr>
+                                     </thead>
+                           
+                     <tbody>
+                     <tr>
+                          <td>  <h3 style="color:blue">${sumsum1}</h3>
+                                <p style="color:red">Hôm nay : + ${sums1}  </p>
+                            </td>
+                         <td>  <h3 style="color:blue">${sumsum2}</h3>
+                                 <p style="color:green">Hôm nay : + ${sums2}  </p>
+                        </td>
+                         <td> <h3 style="color:red">${sumsum3}</h3>
+                                <p style="color:red">Hôm nay : + ${sums3}  </p>
+                        </td>
+                       
+                     </tr>
+                     </tbody>
+                <table>
+
+                 `;
+            });
+
+
+       
+    })</script>
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111717926-1"></script>
+            <script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-111717926-1")</script>
+        </div>
+    </div>
+    <div class="row">
+        
+        <div class="col-lg-7"><h3 class="tle1" style="color:darkblue"><img src="~/Images/TieuDe.png" style="height:25px;width:10px;" />&#160;<b>Bản Tin</b></h3>
+            @Html.Action("BanTinMoiNhatPartial", "Home")
+        </div>
+        <div class="col-lg-5">
+            <h3 class="tle1" style="color:darkblue"><img src="~/Images/TieuDe.png" style="height:25px;width:10px;" />&#160;<b>Diễn biến dịch</b></h3>
+            @Html.Action("DienBienDich", "Home")
+        </div>
+    </div>
+    <hr />
+
+    <h3 class="tle1" style="color:darkblue"><img src="~/Images/TieuDe.png" style="height:25px;width:10px;" />&#160;<b>Tình hình dịch</b></h3>
+    <div class="row" >
+        <div class="col-lg-6 well" style="overflow:scroll ;height:600px">
+            @Html.Action("List_ThongKe", "Home")
+        </div>
+        <div class="col-lg-6 well" >
+            @Html.Action("BieuDo", "Home")
+        </div>
+    </div>
+    <hr />
+
+    <div class="row">
+        <div class="col-lg-6">
+            <h3 class="tle1" style="color:darkblue"><img src="~/Images/TieuDe.png" style="height:25px;width:10px;" />&#160;<b>Chỉ đạo chống dịch</b></h3>
+            @Html.Action("ChiDaoPartial", "Home")
+        </div>
+        <div class="col-lg-6">
+            <h3 class="tle1" style="color:darkblue"><img src="~/Images/TieuDe.png" style="height:25px;width:10px;" />&#160;<b>Bản tin COVID - 19</b></h3>
+            @Html.Action("TinTucPartial", "Home")
+        </div>
+    </div>
+    <hr />
+
+    <h3 class="tle1" style="color:darkblue"><img src="~/Images/TieuDe.png" style="height:25px;width:10px;" />&#160;<b>Vaccine - Tiêm chủng</b></h3>
+    <div class="row">
+        <div class="col-lg-6 ">
+            @Html.Action("VaccineMoiPartial", "Home")
+        </div>
+        <div class="col-lg-6">
+            @Html.Action("VaccinePartial", "Home")
+        </div>
+    </div>
+    <hr style="" />
+
+    <h3 class="tle1" style="color:darkblue"><img src="~/Images/TieuDe.png" style="height:25px;width:10px;" />&#160;<b>Video</b></h3>
+    <div class="row">
+        <div class="col-lg-6 " >
+            @Html.Action("VideoMoiPartial", "Home")
+            @Html.ActionLink("Xem thêm", "List_Xemthem", "Home")
+        </div>
+        <div class="col-lg-6">
+            @Html.Action("VideoPartial", "Home")
+        </div>
+    </div>
+    <hr style="" />
+
+    <h3 class="tle1" style="color:darkblue"><img src="~/Images/TieuDe.png" style="height:25px;width:10px;" />&#160;<b>Tin tức</b></h3>
+    <div class="row">
+        @Html.Action("BanTinPartial", "Home")
+    </div>
+</div>

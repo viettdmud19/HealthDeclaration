@@ -1,0 +1,12 @@
+﻿@model DACSN.Models.Ward
+
+<option value="">--- Select --- </option>
+@if (ViewBag.WardList != null)
+{
+    foreach (var item in ViewBag.WardList)
+    {
+        <option value="@item.Value">@item.Text</option>
+    }
+}
+
+

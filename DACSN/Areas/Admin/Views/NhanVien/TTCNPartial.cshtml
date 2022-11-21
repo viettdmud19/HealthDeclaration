@@ -1,0 +1,8 @@
+﻿@using DACSN.Models
+
+@{
+    NhanVien nv = (NhanVien)Session["NhanVien"];
+}
+
+<a href="@Url.Action("ThongTinCaNhan", "NhanVien", new { id = nv.IdNV })">Thông Tin Cá Nhân</a>
+

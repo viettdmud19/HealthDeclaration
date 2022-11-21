@@ -1,0 +1,775 @@
+D:\Documents\DACSN\DACSN\bin\DACSN.dll.config
+D:\Documents\DACSN\DACSN\bin\DACSN.dll
+D:\Documents\DACSN\DACSN\bin\DACSN.pdb
+D:\Documents\DACSN\DACSN\bin\roslyn\csc.exe
+D:\Documents\DACSN\DACSN\bin\roslyn\csc.exe.config
+D:\Documents\DACSN\DACSN\bin\roslyn\csc.rsp
+D:\Documents\DACSN\DACSN\bin\roslyn\csi.exe
+D:\Documents\DACSN\DACSN\bin\roslyn\csi.exe.config
+D:\Documents\DACSN\DACSN\bin\roslyn\csi.rsp
+D:\Documents\DACSN\DACSN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Documents\DACSN\DACSN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Documents\DACSN\DACSN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Documents\DACSN\DACSN\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\System.AppContext.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\System.Collections.Immutable.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\System.Console.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\System.Globalization.Calendars.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\System.IO.Compression.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\System.IO.FileSystem.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\System.Net.Http.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\System.Net.Sockets.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\System.Reflection.Metadata.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\System.ValueTuple.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\System.Xml.XPath.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Documents\DACSN\DACSN\bin\roslyn\vbc.exe
+D:\Documents\DACSN\DACSN\bin\roslyn\vbc.exe.config
+D:\Documents\DACSN\DACSN\bin\roslyn\vbc.rsp
+D:\Documents\DACSN\DACSN\bin\roslyn\VBCSCompiler.exe
+D:\Documents\DACSN\DACSN\bin\roslyn\VBCSCompiler.exe.config
+D:\Documents\DACSN\DACSN\bin\Antlr3.Runtime.dll
+D:\Documents\DACSN\DACSN\bin\EntityFramework.dll
+D:\Documents\DACSN\DACSN\bin\EntityFramework.SqlServer.dll
+D:\Documents\DACSN\DACSN\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Documents\DACSN\DACSN\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Documents\DACSN\DACSN\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Documents\DACSN\DACSN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Documents\DACSN\DACSN\bin\Microsoft.Owin.dll
+D:\Documents\DACSN\DACSN\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Documents\DACSN\DACSN\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Documents\DACSN\DACSN\bin\Microsoft.Owin.Security.dll
+D:\Documents\DACSN\DACSN\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Documents\DACSN\DACSN\bin\Microsoft.Owin.Security.Google.dll
+D:\Documents\DACSN\DACSN\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Documents\DACSN\DACSN\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Documents\DACSN\DACSN\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Documents\DACSN\DACSN\bin\Microsoft.Web.Infrastructure.dll
+D:\Documents\DACSN\DACSN\bin\Newtonsoft.Json.dll
+D:\Documents\DACSN\DACSN\bin\Owin.dll
+D:\Documents\DACSN\DACSN\bin\System.Web.Helpers.dll
+D:\Documents\DACSN\DACSN\bin\System.Web.Mvc.dll
+D:\Documents\DACSN\DACSN\bin\System.Web.Optimization.dll
+D:\Documents\DACSN\DACSN\bin\System.Web.Razor.dll
+D:\Documents\DACSN\DACSN\bin\System.Web.WebPages.Deployment.dll
+D:\Documents\DACSN\DACSN\bin\System.Web.WebPages.dll
+D:\Documents\DACSN\DACSN\bin\System.Web.WebPages.Razor.dll
+D:\Documents\DACSN\DACSN\bin\WebGrease.dll
+D:\Documents\DACSN\DACSN\bin\System.Web.Helpers.xml
+D:\Documents\DACSN\DACSN\bin\System.Web.Mvc.xml
+D:\Documents\DACSN\DACSN\bin\System.Web.Optimization.xml
+D:\Documents\DACSN\DACSN\bin\System.Web.Razor.xml
+D:\Documents\DACSN\DACSN\bin\System.Web.WebPages.xml
+D:\Documents\DACSN\DACSN\bin\System.Web.WebPages.Deployment.xml
+D:\Documents\DACSN\DACSN\bin\System.Web.WebPages.Razor.xml
+D:\Documents\DACSN\DACSN\bin\Newtonsoft.Json.xml
+D:\Documents\DACSN\DACSN\bin\Antlr3.Runtime.pdb
+D:\Documents\DACSN\DACSN\bin\EntityFramework.xml
+D:\Documents\DACSN\DACSN\bin\EntityFramework.SqlServer.xml
+D:\Documents\DACSN\DACSN\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Documents\DACSN\DACSN\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Documents\DACSN\DACSN\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Documents\DACSN\DACSN\bin\Microsoft.Owin.xml
+D:\Documents\DACSN\DACSN\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Documents\DACSN\DACSN\bin\Microsoft.Owin.Security.xml
+D:\Documents\DACSN\DACSN\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Documents\DACSN\DACSN\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Documents\DACSN\DACSN\bin\Microsoft.Owin.Security.Google.xml
+D:\Documents\DACSN\DACSN\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Documents\DACSN\DACSN\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Documents\DACSN\DACSN\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Documents\DACSN\DACSN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Documents\DACSN\DACSN\obj\Debug\DACSN.csproj.CoreCompileInputs.cache
+D:\Documents\DACSN\DACSN\obj\Debug\DACSN.csproj.CopyComplete
+D:\Documents\DACSN\DACSN\obj\Debug\DACSN.dll
+D:\Documents\DACSN\DACSN\obj\Debug\DACSN.pdb
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\DACSN.dll.config
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\DACSN.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\DACSN.pdb
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\csc.exe
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\csc.exe.config
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\csc.rsp
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\csi.exe
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\csi.exe.config
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\csi.rsp
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.AppContext.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Console.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.IO.Compression.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Net.Http.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Net.Sockets.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.ValueTuple.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Xml.XPath.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\vbc.exe
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\vbc.exe.config
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\vbc.rsp
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\VBCSCompiler.exe
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Antlr3.Runtime.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\EntityFramework.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\EntityFramework.SqlServer.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Newtonsoft.Json.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Owin.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.Helpers.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.Mvc.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.Optimization.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.Razor.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.WebPages.Deployment.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.WebPages.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.WebPages.Razor.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\WebGrease.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.Helpers.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.Mvc.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.Optimization.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.Razor.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.WebPages.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.WebPages.Deployment.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.WebPages.Razor.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Newtonsoft.Json.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Antlr3.Runtime.pdb
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\EntityFramework.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\EntityFramework.SqlServer.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\obj\Debug\DACSN.csproj.AssemblyReference.cache
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\obj\Debug\DACSN.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\obj\Debug\DACSN.csproj.CopyComplete
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\obj\Debug\DACSN.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\obj\Debug\DACSN.pdb
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\DACSN.dll.config
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\DACSN.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\DACSN.pdb
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\csc.exe
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\csc.exe.config
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\csc.rsp
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\csi.exe
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\csi.exe.config
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\csi.rsp
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.AppContext.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Console.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.IO.Compression.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Net.Http.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Net.Sockets.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.ValueTuple.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Xml.XPath.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\vbc.exe
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\vbc.exe.config
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\vbc.rsp
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\VBCSCompiler.exe
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Antlr3.Runtime.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\EntityFramework.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\EntityFramework.SqlServer.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Newtonsoft.Json.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Owin.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.Helpers.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.Mvc.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.Optimization.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.Razor.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.WebPages.Deployment.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.WebPages.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.WebPages.Razor.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\WebGrease.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.Helpers.xml
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.Mvc.xml
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.Optimization.xml
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.Razor.xml
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.WebPages.xml
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.WebPages.Deployment.xml
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.WebPages.Razor.xml
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Newtonsoft.Json.xml
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Antlr3.Runtime.pdb
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\EntityFramework.xml
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\EntityFramework.SqlServer.xml
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.xml
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.xml
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\obj\Debug\DACSN.csproj.AssemblyReference.cache
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\obj\Debug\DACSN.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\obj\Debug\DACSN.csproj.CopyComplete
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\obj\Debug\DACSN.dll
+C:\Users\nguye\Desktop\Đồ án cơ sở ngành\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\obj\Debug\DACSN.pdb
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\DACSN.dll.config
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\DACSN.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\DACSN.pdb
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\csc.exe
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\csc.exe.config
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\csc.rsp
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\csi.exe
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\csi.exe.config
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\csi.rsp
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.AppContext.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Collections.Immutable.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Console.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Globalization.Calendars.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.IO.Compression.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.IO.FileSystem.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Net.Http.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Net.Sockets.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Reflection.Metadata.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.ValueTuple.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Xml.XPath.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\vbc.exe
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\vbc.exe.config
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\vbc.rsp
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\VBCSCompiler.exe
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\roslyn\VBCSCompiler.exe.config
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Antlr3.Runtime.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\EntityFramework.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\EntityFramework.SqlServer.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.Google.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Web.Infrastructure.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Newtonsoft.Json.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Owin.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.Helpers.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.Mvc.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.Optimization.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.Razor.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.WebPages.Deployment.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.WebPages.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.WebPages.Razor.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\WebGrease.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.Helpers.xml
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.Mvc.xml
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.Optimization.xml
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.Razor.xml
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.WebPages.xml
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.WebPages.Deployment.xml
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\System.Web.WebPages.Razor.xml
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Newtonsoft.Json.xml
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Antlr3.Runtime.pdb
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\EntityFramework.xml
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\EntityFramework.SqlServer.xml
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.xml
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.xml
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.Google.xml
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\obj\Debug\DACSN.csproj.AssemblyReference.cache
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\obj\Debug\DACSN.csproj.CoreCompileInputs.cache
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\obj\Debug\DACSN.csproj.CopyComplete
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\obj\Debug\DACSN.dll
+D:\Downloads\Compressed\DoAnCoSoNganh_NhomF1-main_2\DoAnCoSoNganh_NhomF1-main\DoAnCoSoNganh_NhomF1-main\DACSN\obj\Debug\DACSN.pdb
+D:\Documents\DACSN\DACSN\bin\PagedList.dll
+D:\Documents\DACSN\DACSN\bin\PagedList.Mvc.dll
+D:\Documents\DACSN\DACSN\bin\PagedList.xml
+D:\Documents\DACSN\DACSN\bin\PagedList.Mvc.xml
+D:\Documents\DACSN\DACSN\obj\Debug\DACSN.csproj.AssemblyReference.cache
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\DACSN.dll.config
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\DACSN.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\DACSN.pdb
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\csc.exe
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\csc.exe.config
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\csc.rsp
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\csi.exe
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\csi.exe.config
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\csi.rsp
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.AppContext.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Collections.Immutable.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Console.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Globalization.Calendars.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.IO.Compression.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.IO.FileSystem.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Net.Http.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Net.Sockets.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Reflection.Metadata.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.ValueTuple.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Xml.XPath.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\vbc.exe
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\vbc.exe.config
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\vbc.rsp
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\VBCSCompiler.exe
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\VBCSCompiler.exe.config
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Antlr3.Runtime.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\EntityFramework.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\EntityFramework.SqlServer.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.Google.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Web.Infrastructure.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Newtonsoft.Json.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Owin.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\PagedList.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\PagedList.Mvc.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.Helpers.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.Mvc.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.Optimization.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.Razor.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.WebPages.Deployment.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.WebPages.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.WebPages.Razor.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\WebGrease.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\PagedList.xml
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\PagedList.Mvc.xml
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.Helpers.xml
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.Mvc.xml
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.Optimization.xml
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.Razor.xml
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.WebPages.xml
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.WebPages.Deployment.xml
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.WebPages.Razor.xml
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Newtonsoft.Json.xml
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Antlr3.Runtime.pdb
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\EntityFramework.xml
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\EntityFramework.SqlServer.xml
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.xml
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.xml
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.Google.xml
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\obj\Debug\DACSN.csproj.CoreCompileInputs.cache
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\obj\Debug\DACSN.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\obj\Debug\DACSN.pdb
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\obj\Debug\DACSN.csproj.AssemblyReference.cache
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\bin\DotNet.Highcharts.dll
+D:\Documents\DoAnCoSoNganh_NhomF1\DACSN\obj\Debug\DACSN.csproj.CopyComplete
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\DACSN.dll.config
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\DACSN.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\DACSN.pdb
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\csc.exe
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\csc.exe.config
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\csc.rsp
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\csi.exe
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\csi.exe.config
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\csi.rsp
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.AppContext.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Console.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.IO.Compression.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Net.Http.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Net.Sockets.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.ValueTuple.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Xml.XPath.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\vbc.exe
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\vbc.exe.config
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\vbc.rsp
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\VBCSCompiler.exe
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Antlr3.Runtime.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\DotNet.Highcharts.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\EntityFramework.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\EntityFramework.SqlServer.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Newtonsoft.Json.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Owin.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\PagedList.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\PagedList.Mvc.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.Helpers.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.Mvc.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.Optimization.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.Razor.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.WebPages.Deployment.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.WebPages.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.WebPages.Razor.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\WebGrease.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\PagedList.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\PagedList.Mvc.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.Helpers.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.Mvc.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.Optimization.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.Razor.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.WebPages.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.WebPages.Deployment.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.WebPages.Razor.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Newtonsoft.Json.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Antlr3.Runtime.pdb
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\EntityFramework.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\EntityFramework.SqlServer.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\obj\Debug\DACSN.csproj.AssemblyReference.cache
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\obj\Debug\DACSN.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\obj\Debug\DACSN.csproj.CopyComplete
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\obj\Debug\DACSN.dll
+C:\Users\nguye\Downloads\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\obj\Debug\DACSN.pdb
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\DACSN.dll.config
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\DACSN.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\DACSN.pdb
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\csc.exe
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\csc.exe.config
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\csc.rsp
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\csi.exe
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\csi.exe.config
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\csi.rsp
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.Managed.Core.targets
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.AppContext.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Collections.Immutable.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Console.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Globalization.Calendars.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.IO.Compression.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.IO.FileSystem.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Net.Http.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Net.Sockets.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Reflection.Metadata.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.ValueTuple.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Xml.XmlDocument.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Xml.XPath.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\vbc.exe
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\vbc.exe.config
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\vbc.rsp
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\VBCSCompiler.exe
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\roslyn\VBCSCompiler.exe.config
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Antlr3.Runtime.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\DotNet.Highcharts.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\EntityFramework.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\EntityFramework.SqlServer.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.AspNet.Identity.Core.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.Cookies.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.Facebook.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.Google.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.OAuth.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.Twitter.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Web.Infrastructure.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Newtonsoft.Json.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Owin.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\PagedList.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\PagedList.Mvc.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.Helpers.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.Mvc.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.Optimization.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.Razor.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.WebPages.Deployment.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.WebPages.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.WebPages.Razor.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\WebGrease.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\PagedList.xml
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\PagedList.Mvc.xml
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.Helpers.xml
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.Mvc.xml
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.Optimization.xml
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.Razor.xml
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.WebPages.xml
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.WebPages.Deployment.xml
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\System.Web.WebPages.Razor.xml
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Newtonsoft.Json.xml
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Antlr3.Runtime.pdb
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\EntityFramework.xml
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\EntityFramework.SqlServer.xml
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.AspNet.Identity.Core.xml
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.xml
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.xml
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.Facebook.xml
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.Cookies.xml
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.Google.xml
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.Twitter.xml
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.Owin.Security.OAuth.xml
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\obj\Debug\DACSN.csproj.AssemblyReference.cache
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\obj\Debug\DACSN.csproj.CoreCompileInputs.cache
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\obj\Debug\DACSN.dll
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\obj\Debug\DACSN.pdb
+D:\INSTALL\DoAnCoSoNganh_NhomF1\DoAnCoSoNganh_NhomF1\DACSN\obj\Debug\DACSN.csproj.CopyComplete

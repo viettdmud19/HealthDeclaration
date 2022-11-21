@@ -1,0 +1,72 @@
+﻿@using DACSN.Models;
+@using PagedList.Mvc;
+@model PagedList.PagedList<DACSN.Models.DanhMuc>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutNhanVien.cshtml";
+}
+
+<div class="container-fluid admin-artcles">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Danh sách danh mục</h1>
+    <br />
+    <p>
+        @Html.ActionLink("Thêm danh mục", "Create")
+    </p>
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <!--<h6 class="m-0 font-weight-bold text-primary">DataTables Articles</h6>-->
+        </div>
+
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Tên danh mục</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td><div>@item.IdDM</div></td>
+                                <td style="max-width: 250px;"><div>@item.TenDM</div></td>
+                                <td style="max-width: 100px;">
+                                    <div>@Html.ActionLink("Edit", "Edit", new { id = item.IdDM })</div>
+                                    <div>
+                                        @Ajax.ActionLink("Delete", "Delete", new { id = item.IdDM }, new AjaxOptions
+                                        {
+                                            Confirm = "Xác nhận xóa thể loại \"" + @item.TenDM + "\"?",
+                                            OnComplete = "$('#row_" + item.IdDM + "').remove()",
+                                            HttpMethod = "Delete"
+                                        })
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+Trang @(Model.PageCount<Model.PageNumber?0:Model.PageNumber)/@Model.PageCount
+<div class="MenuTrang">
+
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
+</div>
+<style>
+    .MenuTrang {
+        display: inline;
+        text-align: center;
+    }
+</style>
+

@@ -1,0 +1,52 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Hệ Thống Quản Lý Của Nhân Viên</title>
+    <link rel="SHORTCUT ICON" href="~/Images/LogoBD.ico">
+    <link href="~/CSS/DangNhapNV.css" rel="stylesheet" />
+
+    <style type="text/css">
+        .container {
+            height: 500px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="animated bounceInDown">
+        <div class="container">
+
+            @ViewBag.ThongBao
+            <form name="form1" class="box" action="/NhanVien/DangNhapNV" method="post">
+                <h4>Personnel<span>Dashboard</span></h4>
+                <h5>Sign in to your account.</h5>
+                <input type="text" name="Email" placeholder="Email">
+                <i class="typcn typcn-eye" id="eye"></i>
+                <input type="password" name="Password" placeholder="Passsword">
+                <label>
+                    <input type="checkbox">
+                    <span></span>
+                    <small class="rmb">Remember me</small>
+                </label>
+                <a href="@Url.Action("QuenMK","NhanVien")" class="forgetpass">Forget Password?</a>
+
+                <button type="submit" class="btn1">Login</button>
+            </form>
+            <a href="@Url.Action("DangKyNV","NhanVien")" class="dnthave">Don’t have an account? Sign up</a>
+
+        </div>
+        <div class="footer">
+            <span>Made with <i class="fa fa-heart pulse"></i> By Devloper </span>
+        </div>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,160 @@
+﻿@model DACSN.Models.NhanVien
+
+@{
+    ViewBag.Title = "DangKyNV";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<style type="text/css">
+    .form-horizontal .form-group {
+        margin-right: -70px;
+        margin-left: 30px;
+    }
+
+    .form-control {
+        background: #262e49;
+        color: aliceblue;
+    }
+
+        .form-control[readonly] {
+            background: #262e49;
+            color: aliceblue;
+            border: 1;
+        }
+
+    .col-md-offset-2 {
+        margin-left: -24.333333%;
+    }
+
+    .nut input[type="submit"] {
+        background: #000;
+        color: aliceblue;
+        border: 10px;
+    }
+
+        .nut input[type="submit"]:hover {
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+            color: red;
+            border: red;
+        }
+
+        .nut input[type="submit"]:active {
+            background-color: /*rgb(91 89 89 / 0.51)*/ #51A9FF;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+    /* .QuayLai {
+        margin-left: -2%;
+    }*/
+</style>
+
+
+
+@if (ViewBag.Status != null && Convert.ToBoolean(ViewBag.Status))
+{
+    if (ViewBag.Message != null)
+    {
+        <div class="alert alert-success">
+            <strong>Success!</strong>@ViewBag.Message
+        </div>
+    }
+}
+else
+{
+    using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <div class="TieuDe">
+                <h4>Personnel<span>Dashboard</span></h4>
+                <h5>Sign Up to your account.</h5>
+            </div>
+
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <div class="form-group">
+
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.HovaTen, new { htmlAttributes = new { @class = "form-control", placeholder = "Họ và Tên" } })
+                    @Html.ValidationMessageFor(model => model.HovaTen, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", placeholder = "Email" } })
+                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                    @Html.ValidationMessage("EmailExist", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.MatKhauNV, new { htmlAttributes = new { @class = "form-control", placeholder = "Password" } })
+                    @Html.ValidationMessageFor(model => model.MatKhauNV, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.ConfirmPassword, new { htmlAttributes = new { @class = "form-control", placeholder = "Confirm Password" } })
+                    @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.DiaChi, new { htmlAttributes = new { @class = "form-control", placeholder = "Địa chỉ" } })
+                    @Html.ValidationMessageFor(model => model.DiaChi, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.SDT, new { htmlAttributes = new { @class = "form-control", placeholder = "Số Điện Thoại" } })
+                    @Html.ValidationMessageFor(model => model.SDT, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+
+                <div class="col-md-10">
+                    <input type="text" class="form-control text-box single-line" name="NgayDangky" value="@DateTime.Now.ToShortDateString()" placeholder="Ngày Đặt" readonly="readonly">
+
+                    @*@Html.EditorFor(model => model.NgayDangKy,  new { htmlAttributes = new { @class = "form-control", value ="@DateTime.Now.ToShortDateString()", placeholder = "Ngày Đặt"} })*@
+                    @Html.ValidationMessageFor(model => model.NgayDangKy, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="nut col-md-offset-2">
+                    <input type="submit" value="Sign Up" class="btn btn-default" />
+                </div>
+            </div>
+            <div>
+                @Html.ActionLink("Quay lại trang Đăng Nhập", "DangNhapNV")
+            </div>
+        </div>
+
+        if (ViewBag.Message != null)
+        {
+            <div class="alert alert-danger">
+                <strong>Error!</strong>@ViewBag.Message
+            </div>
+        }
+    }
+}
+@*<div class="QuayLai">
+        @Html.ActionLink("Quay về trang đăng nhập", "DangNhapNV")
+    </div>*@
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

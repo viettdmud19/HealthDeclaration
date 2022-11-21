@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "ThongKe";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<h2 style="text-align:center">Thống kê Y Tế Tỉnh Bình Dương</h2>
+
+    <div class="row">
+        <div class="col-lg-12 well">
+            @Html.Action("ThongKe_BinhDuong", "KhaiBaoAdmin")
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 well">
+            @Html.Action("ThongKe_BinhDuong_2", "KhaiBaoAdmin")
+        </div>
+    </div>

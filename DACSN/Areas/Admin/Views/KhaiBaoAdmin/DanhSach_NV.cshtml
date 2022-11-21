@@ -1,0 +1,104 @@
+﻿@using DACSN.Models
+@using PagedList.Mvc;
+@model PagedList.PagedList<DACSN.Models.NhanVien>
+
+@{
+    ViewBag.Title = "DanhSach_NV";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Danh sách Thành viên </h2>
+
+<p>
+    @*@Html.ActionLink("Create New", "Create")*@
+    Số lượng thành viên : @ViewBag.TongTV
+</p>
+<table class="table">
+    <tr>
+        @*<th>
+            @Html.DisplayNameFor(model => model.First().ConfirmPassword)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.First().Email)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.First().MatKhauNV)
+        </th>*@
+        @*<th>
+            @Html.DisplayNameFor(model => model.First().CodeResetPassword)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.First().HovaTen)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().DiaChi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().SDT)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().NgayDangKy)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.First().IsEmailVerified)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().ActivationCode)
+        </th>*@
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            @*<td>
+                @Html.DisplayFor(modelItem => item.ConfirmPassword)
+            </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            @*<td>
+                @Html.DisplayFor(modelItem => item.MatKhauNV)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodeResetPassword)
+            </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.HovaTen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiaChi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SDT)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayDangKy)
+            </td>
+            @*<td>
+                @Html.DisplayFor(modelItem => item.IsEmailVerified)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ActivationCode)
+            </td>*@
+            <td>
+                @*@Html.ActionLink("Edit", "Edit", new { id = item.IdNV }) |
+                @Html.ActionLink("Details", "Details", new { id = item.IdNV }) |*@
+                @*@Html.ActionLink("Delete", "Delete", new { id = item.IdNV })*@
+            </td>
+        </tr>
+    }
+
+</table>
+<!-- Thêm mã phân trang -->
+        Trang @(Model.PageCount<Model.PageNumber?0:Model.PageNumber)/@Model.PageCount
+        <div class="MenuTrang">
+
+            @Html.PagedListPager(Model, page => Url.Action("DanhSach_NV", new { page = page }))
+        </div>
+        <style>
+            .MenuTrang {
+                display: inline;
+                text-align: center;
+            }
+        </style>

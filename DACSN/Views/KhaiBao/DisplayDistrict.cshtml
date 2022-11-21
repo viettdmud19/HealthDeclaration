@@ -1,0 +1,11 @@
+﻿@model DACSN.Models.District
+
+<option value="">--- Select --- </option>
+@if (ViewBag.DistrictList != null)
+{
+    foreach (var item in ViewBag.DistrictList)
+    {
+        <option value="@item.Value">@item.Text</option>
+    }
+}
+

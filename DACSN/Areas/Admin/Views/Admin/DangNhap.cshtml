@@ -1,0 +1,42 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Đăng nhập</title>
+    <link rel="SHORTCUT ICON" href="~/Images/LogoBD.ico">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="~/CSS/dangnhap.css">
+
+</head>
+<body>
+    <div class="container login-container">
+        <div class="col-md-6 login-form-1">
+            <h3>Login Admin</h3>
+            <form action="~/Admin/Admin/Login" method="post" class="box login">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Tài khoản *" name="UserName" required />
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Mật khẩu *" name="Password" required />
+                </div>
+                <div class="form-group" style="text-align:right">
+                    <a href="@Url.Action("QuenMK", "Admin")" class="ForgetPwd">Quên mật khẩu?</a>
+                </div>
+                <div class="form-group" style="text-align:center">
+                    <input type="submit" class="btnSubmit" value="ĐĂNG NHẬP" style="width:300px"/>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

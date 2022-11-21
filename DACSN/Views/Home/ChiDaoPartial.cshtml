@@ -1,0 +1,26 @@
+﻿@model IEnumerable<DACSN.Models.BaiViet>
+
+<style type="text/css">
+    #ap{
+        padding-left:10px;
+        color:#000000;
+        text-decoration:none;
+    }
+</style>
+
+<div class="row">
+    @foreach (var chidao in Model)
+    {
+      <div class="col-lg-12">
+          <img src="~/Images/@chidao.Hinh" style="height:370px;width:550px" />
+      </div>
+      <div class="col-lg-12">
+          <h3><a id="ap" href="@Url.Action("ChiTietTinTuc", "Home", new { id = chidao.IdBV})">@chidao.TieuDe</a></h3>
+          <p>&#160;&#160;@chidao.TomTat</p>
+      </div>
+    }
+</div>
+
+
+
+

@@ -1,0 +1,133 @@
+﻿@using DACSN.Models
+@using PagedList.Mvc;
+@model PagedList.PagedList<DACSN.Models.ThongTin_KhaiBao>
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<div>
+    <p style="color:red; text-align:center; font-size:30px">
+        THÔNG TIN NGƯỜI TIẾP XÚC NGƯỜI ĐI TỪ NƠI NHIỄM COVID
+    </p>
+</div>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.First().HoVaTen)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().CMND)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().NamSinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().GioiTinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().QuocTich)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().DiaChi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().PhuongXa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().QuanHuyen)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().TinhThanh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().DienThoai)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().TinhTrang)
+        </th>
+        @*<th>
+                @Html.DisplayNameFor(model => model.First().TiepXucCOVID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().NguoiVungCovid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().NguoiSotHo)
+            </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.First().NgayKhaiBao)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.HoVaTen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CMND)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NamSinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GioiTinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QuocTich)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiaChi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ward.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.District.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Province.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DienThoai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TinhTrang)
+            </td>
+            @*<td>
+                    @Html.DisplayFor(modelItem => item.TiepXucCOVID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NguoiVungCovid)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NguoiSotHo)
+                </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayKhaiBao)
+            </td>
+
+        </tr>
+    }
+
+</table>
+<div>
+    <!-- Thêm mã phân trang -->
+    Trang @(Model.PageCount<Model.PageNumber?0:Model.PageNumber)/@Model.PageCount
+    <div class="MenuTrang">
+
+        @Html.PagedListPager(Model, page => Url.Action("thongke_Vungdich", new { page = page }))
+    </div>
+    <style>
+        .MenuTrang {
+            display: inline;
+            text-align: center;
+        }
+    </style>
+</div>
+@Html.ActionLink("Quay lại Trang", "ThongKe", "KhaiBaoAdmin")

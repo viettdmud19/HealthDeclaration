@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ Thống Quản Lý Của Nhân Viên</title>
+    <link rel="SHORTCUT ICON" href="~/Images/LogoBD.ico">
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <script src="~/Scripts/ThongBao.js"></script>
+    <style type="text/css">
+        body, html {
+            font-family: 'Source Sans Pro', sans-serif;
+            background-color: #1d243d;
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            margin: 0;
+            top: 50px;
+            left: 50%;
+            position: absolute;
+            text-align: center;
+            transform: translateX(-50%);
+            background-color: rgb( 33, 41, 66 );
+            border-radius: 9px;
+            border-top: 10px solid #79a6fe;
+            border-bottom: 10px solid #8BD17C;
+            width: 400px;
+            height: auto;
+            box-shadow: 1px 1px 108.8px 19.2px rgb(25 31 53);
+        }
+
+        }
+
+        /* .col-md-offset-2 {
+            margin-left: 7.666667%;
+        }*/
+
+        .col-md-10 {
+            width: 77.333333%;
+        }
+
+
+        .TieuDe h4 {
+            text-align: center;
+            font-weight: bold;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: #5c6bc0;
+            font-size: 18px;
+            /*margin-top: 94px;*/
+        }
+
+        .TieuDe span {
+            color: #dfdeee;
+            font-weight: lighter;
+        }
+
+        .TieuDe h5 {
+            text-align: center;
+            font-style: inherit;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 13px;
+            color: #a1a4ad;
+            letter-spacing: 1.5px;
+            /* margin-top: -15px;*/
+            /*  margin-bottom: 70px;*/
+        }
+
+        .TieuDe h2 {
+            text-align: center;
+            font-weight: bold;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: #5c6bc0;
+            font-size: 18px;
+        }
+
+        .body-content {
+            left: 50%;
+        }
+
+        .QuayVe {
+            background: #456BD9;
+            border: 0.1875em solid #0F1C3F;
+            border-radius: 50%;
+            box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+            height: 3em;
+            width: 3em;
+            right: 50%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container body-content">
+        <button class="QuayVe"></button>
+
+        @if (TempData["AlertMessage"] != null)
+        {
+    <div id="AlertBox" class="alert @TempData["AlertType"] hide" role="alert">
+        @TempData["AlertMessage"]
+    </div>}
+
+        @RenderBody()
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,96 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Trang đăng nhập</title>
+    <link rel="SHORTCUT ICON" href="~/Images/LogoBD.ico">
+    <style type="text/css">
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .Nen {
+            background: #00ffff;
+            width: 100%;
+            height: 650px;
+            padding-top: 10px;
+        }
+
+        .TieuDe h1 {
+            padding-top: 10%;
+            text-align: center;
+            color: red;
+            margin: 0px;
+        }
+
+        .TieuDe h5 {
+            text-align: center;
+            color: red;
+            margin: 0px;
+            font-style: inherit;
+            font-family: initial;
+        }
+
+        .LuaChon {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .LuaChon_NV {
+            padding-top: 10px;
+        }
+
+        .LuaChon input, select, textarea {
+            border-radius: 60px;
+            outline: 0 !important;
+            font-size: 20px;
+            background-color: #3399FF;
+            width: 150px;
+        }
+
+            .LuaChon input[type="submit"]:hover {
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+            }
+
+            .LuaChon input[type="submit"]:active {
+                background-color: #ffffff82;
+                box-shadow: 0 5px #666;
+                transform: translateY(4px);
+            }
+
+        .LuaChon .btnLogin {
+            background: -webkit-gradient(linear, left top, left bottom, from(#badff3), to(#7acbed));
+            border: 1px solid #7db0cc !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="Nen">
+        <div class="TieuDe">
+            <h1>
+                LOGIN
+            </h1>
+            <h5>
+                Trung tâm khái báo ý tế và phòng ngừa Covid 19
+            </h5>
+        </div>
+
+        <div class="LuaChon">
+            <div class="LuaChon_admin">
+                <a href="@Url.Action("DangNhap","Admin")"><input type="submit" class="btnLogin" value="ADMIN" tabindex="4"></a>
+            </div>
+            <div class="LuaChon_NV">
+                <a href="@Url.Action("DangNhapNV","NhanVien")"><input type="submit" class="btnLogin" value="NHÂN VIÊN" tabindex="4"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,115 @@
+﻿<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+<figure class="highcharts-figure">
+    <div id="container"></div>
+    <p class="highcharts-description">
+       
+    </p>
+</figure>
+<script>
+    Highcharts.chart('container', {
+        chart: {
+            plotBackgroundColor: null,
+            plotBorderWidth: null,
+            plotShadow: false,
+            type: 'pie'
+        },
+        title: {
+            text: 'Số lượng người Tình nghi F0,F1'
+        },
+        tooltip: {
+            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+           
+        },
+        accessibility: {
+            point: {
+                valueSuffix: '%'
+            }
+        },
+        plotOptions: {
+            pie: {
+                allowPointSelect: true,
+                cursor: 'pointer',
+                dataLabels: {
+                    enabled: false
+                },
+                showInLegend: true
+            }
+        },
+        series: [{
+            name: 'Tiếp xúc',
+            colorByPoint: true,
+            data: [{
+                name: 'Người bị Covid 19',
+                y: @ViewBag.Tiepxuc,
+                sliced: true,
+                selected: true
+            }, {
+                name: 'Người từ Vùng dịch',
+                y: @ViewBag.Vungdich
+            }, {
+                name: 'Người có biểu hiện (sốt ,ho , khó thở)',
+                y:  @ViewBag.Trieuchung
+            }
+            ]
+        }]
+       
+    });
+</script>
+
+<p>
+    TIẾP XÚC VỚI NHỮNG TRƯỜNG HỢP SAU:
+</p>
+<table class="table">
+
+    <tr>
+        <th></th>
+        <th>
+            Người bị Covid 19
+        </th>
+        <th>
+            Người từ Vùng dịch
+        </th>
+        <th>
+            Người có biểu hiện (sốt ,ho , khó thở)
+        </th>
+        <th>
+            Có triệu chứng sau khi tiếp xúc
+        </th>
+        <th></th>
+    </tr>
+
+
+    <tr>
+        <th>Số lượng người tiếp xúc :</th>
+        <td>
+            @ViewBag.Tiepxuc
+        </td>
+        <td>
+            @ViewBag.Vungdich
+        </td>
+        <td>
+            @ViewBag.Trieuchung
+        </td>
+        <td>
+            @ViewBag.TinhTrang
+        </td>
+        <td>
+            @ViewBag.SL_KhaiBao
+        </td>
+
+    </tr>
+    <tr>
+        <td></td>
+        <td>@Html.ActionLink("Details","thongke_TiepXuc", "KhaiBaoAdmin") </td>
+        <td>@Html.ActionLink("Details", "thongke_Vungdich","KhaiBaoAdmin") </td>
+        <td>@Html.ActionLink("Details", "thongke_Trieuchung","KhaiBaoAdmin") </td>
+    </tr>
+
+</table>
+<div class="row">
+
+</div>

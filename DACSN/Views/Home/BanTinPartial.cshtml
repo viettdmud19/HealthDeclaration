@@ -1,0 +1,28 @@
+﻿@model IEnumerable<DACSN.Models.BaiViet>
+
+<style type="text/css">
+    #q{
+        text-decoration:none;
+        font-weight:bold;
+        color:#000000;
+    }  
+</style>
+
+<div class="row">
+    @foreach (var tintuc in Model)
+    {
+        <div class="col-lg-3">
+            <div class="col-lg-12">
+                <img  src="~/Images/@tintuc.Hinh" style="width:250px;" />
+            </div>
+            <div class="col-lg-12">
+                <h4><a id="q" href="@Url.Action("ChiTietTinTuc", "Home", new { id = tintuc.IdBV})">@tintuc.TieuDe</a></h4>
+            </div>
+        </div>
+    }
+</div>
+
+
+
+
+

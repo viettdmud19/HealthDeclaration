@@ -1,0 +1,101 @@
+﻿@model DACSN.Models.BaiViet
+
+@{
+    ViewBag.Title = "Xem bài viết";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutNhanVien.cshtml";
+}
+
+<style type="text/css">
+    img {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+</style>
+
+<style type="text/css">
+    #test {
+        width: 1050px;
+        height: 400px;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+</style>
+<h2>Chi tiết bài viết</h2>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt style="text-align:left">
+            Tiêu đề
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TieuDe)
+        </dd>
+        <hr />
+        <dt style="text-align:left">
+            Tóm tắt
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TomTat)
+        </dd>
+        <hr />
+        <dt style="text-align:left">
+            Nội dung
+        </dt>
+
+        <dd>
+            <div id="test">@Html.Raw(Model.NoiDung)</div>
+        </dd>
+        <hr />
+        <dt style="text-align:left">
+            Ngày viết
+        </dt>
+
+        <dd>
+            @Html.FormatValue(Model.NgayViet, "{0:dd/MM/yyyy}")
+        </dd>
+        <hr />
+        <dt style="text-align:left">
+            Người viết
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NguoiViet)
+        </dd>
+
+        <hr />
+        <dt style="text-align:left">
+            Ảnh bìa
+        </dt>
+
+        <dd>
+            <div><img src="~/Images/@Model.Hinh" style="height:250px;width:400px;" alt="@Model.TieuDe" /></div>
+        </dd>
+        <hr />
+        <dt style="text-align:left">
+            Link Video
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LinkVideo)
+        </dd>
+        <hr />
+        <dt style="text-align:left">
+            Danh mục
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DanhMuc.TenDM)
+        </dd>
+        <hr />
+        <dt style="text-align:left">
+            Tag
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tag)
+        </dd>
+        <hr />
+    </dl>
+</div>

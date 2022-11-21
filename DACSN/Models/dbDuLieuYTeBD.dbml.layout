@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 12, 11" name="dbDuLieuYTeBD">
+  <DataContextMoniker Name="/dbDuLieuYTeBDDataContext" />
+  <nestedChildShapes>
+    <classShape Id="0111b600-4055-4934-9914-cb14f6d21e66" absoluteBounds="3.5, 8, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/dbDuLieuYTeBDDataContext/BaiViet" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f2bad401-a6d2-497c-bb79-be80b27c5df3" absoluteBounds="3.515, 8.46, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a2ed2920-500f-4010-9bdd-2b72decd06f9" absoluteBounds="0.75, 0.75, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/dbDuLieuYTeBDDataContext/CaNhiem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8aa53dce-549c-4711-9941-d4ec182bcb03" absoluteBounds="0.765, 1.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a65c6e53-5f13-43be-85e2-584e0c94f9b5" absoluteBounds="0.75, 8.75, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/dbDuLieuYTeBDDataContext/DanhMuc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="87afc9ed-b8fc-4d59-b889-33c111af2715" absoluteBounds="0.765, 9.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="69afb31e-d008-4713-b85a-8cc75b5474d7" absoluteBounds="3.75, 0.75, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/dbDuLieuYTeBDDataContext/DienBienDich" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d66e6a7f-c337-4f84-9c59-3c43ecf94314" absoluteBounds="3.765, 1.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7b442169-06eb-4eaa-9412-78ce3d45ed81" absoluteBounds="3.5, 3.625, 2, 2.3478011067708331">
+      <DataClassMoniker Name="/dbDuLieuYTeBDDataContext/District" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ee05daa0-fa95-43f1-be3e-f45c945587d5" absoluteBounds="3.515, 4.085, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="29db30ed-fe5d-44bb-b9ac-2defda147af5" absoluteBounds="6.75, 7.75, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/dbDuLieuYTeBDDataContext/NhanVien" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c57b2a22-e304-4941-a708-8ece0ae46e01" absoluteBounds="6.765, 8.21, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="43074e4f-9545-43d3-9b11-f95c0c07ba0a" absoluteBounds="0.75, 3.375, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/dbDuLieuYTeBDDataContext/Province" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0dfae8b6-a505-4ff4-9071-d0ab95db925d" absoluteBounds="0.765, 3.835, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="18dcf1da-2788-4e8e-8131-64de4c1e25b1" absoluteBounds="9.75, 7.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/dbDuLieuYTeBDDataContext/TaiKhoan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f6075f1b-937f-4a40-b46b-057fa7e74429" absoluteBounds="9.765, 8.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="99bda8b2-c88a-4d1f-9527-d63f9f3bc8c4" absoluteBounds="9, 2.75, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/dbDuLieuYTeBDDataContext/ThongTin_KhaiBao" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a8f7bd2b-15e4-423a-887a-8b44fc9a6b97" absoluteBounds="9.015, 3.21, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4d188c96-5bbc-4566-8e58-8c44c6e32d71" absoluteBounds="6.25, 3.625, 2, 2.3478011067708331">
+      <DataClassMoniker Name="/dbDuLieuYTeBDDataContext/Ward" />
+      <nestedChildShapes>
+        <elementListCompartment Id="02b962f7-8c26-4314-8ae6-f4bbb9ca1dc9" absoluteBounds="6.265, 4.085, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 9.34699625651042); (3.5 : 9.34699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dbDuLieuYTeBDDataContext/DanhMuc/DanhMuc_BaiViet" />
+      <nodes>
+        <classShapeMoniker Id="a65c6e53-5f13-43be-85e2-584e0c94f9b5" />
+        <classShapeMoniker Id="0111b600-4055-4934-9914-cb14f6d21e66" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.79890055338542); (3.5 : 4.79890055338542)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dbDuLieuYTeBDDataContext/Province/Province_District" />
+      <nodes>
+        <classShapeMoniker Id="43074e4f-9545-43d3-9b11-f95c0c07ba0a" />
+        <classShapeMoniker Id="7b442169-06eb-4eaa-9412-78ce3d45ed81" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.5 : 5.97280110677083); (4.5 : 6.40065805208333); (9 : 6.40065805208333)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dbDuLieuYTeBDDataContext/District/District_ThongTin_KhaiBao" />
+      <nodes>
+        <classShapeMoniker Id="7b442169-06eb-4eaa-9412-78ce3d45ed81" />
+        <classShapeMoniker Id="99bda8b2-c88a-4d1f-9527-d63f9f3bc8c4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 3.46875); (9 : 3.46875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dbDuLieuYTeBDDataContext/Province/Province_ThongTin_KhaiBao" />
+      <nodes>
+        <classShapeMoniker Id="43074e4f-9545-43d3-9b11-f95c0c07ba0a" />
+        <classShapeMoniker Id="99bda8b2-c88a-4d1f-9527-d63f9f3bc8c4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 4.79890055338542); (9 : 4.79890055338542)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dbDuLieuYTeBDDataContext/Ward/Ward_ThongTin_KhaiBao" />
+      <nodes>
+        <classShapeMoniker Id="4d188c96-5bbc-4566-8e58-8c44c6e32d71" />
+        <classShapeMoniker Id="99bda8b2-c88a-4d1f-9527-d63f9f3bc8c4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 4.79890055338542); (6.25 : 4.79890055338542)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dbDuLieuYTeBDDataContext/District/District_Ward" />
+      <nodes>
+        <classShapeMoniker Id="7b442169-06eb-4eaa-9412-78ce3d45ed81" />
+        <classShapeMoniker Id="4d188c96-5bbc-4566-8e58-8c44c6e32d71" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

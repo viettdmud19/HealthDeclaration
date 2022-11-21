@@ -1,0 +1,93 @@
+﻿@model DACSN.Models.BaiViet
+
+@{
+    ViewBag.Title = "Sửa bài viết";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutNhanVien.cshtml";
+}
+
+<h2>ĐIỀU CHỈNH THÔNG TIN SẢN PHẨM</h2>
+@*Thêm thuộc tính cho form để upload ảnh*@
+@using (Html.BeginForm("Edit", "BaiViet", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            <label class="control-label col-md-1"><p style="text-align:left">Tiêu đề</p></label>
+            <div class="col-md-11">
+                <input type="text" style="width:1000px" name="iIdBV" value="@Model.IdBV" readonly />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-1"><p style="text-align:left">Tiêu đề</p></label>
+            <div class="col-md-11">
+                <input type="text" style="width:1000px" name="sTieuDe" value="@Model.TieuDe" required />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-1"><p style="text-align:left">Tóm tắt</p></label>
+            <div class="col-md-11">
+                <input type="text" style="width:1000px" name="sTomTat" value="@Model.TomTat" required />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-1"><p style="text-align:left">Nội dung</p></label>
+            <div class="col-md-11">
+                <textarea name="sNoiDung" style="width:1000px;height:500px;">@Model.NoiDung</textarea>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-1"><p style="text-align:left">Ngày viết</p></label>
+            <div class="col-md-11">
+                <input type="text" style="width:1000px;" name="sNgayViet" value="@Convert.ToDateTime(Model.NgayViet)" required />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-1"><p style="text-align:left">Người viết</p></label>
+            <div class="col-md-11">
+                <input type="text" style="width:1000px;" name="sNguoiViet" value="@Model.NguoiViet" required />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-1">Ảnh bìa:</label>
+            <div class="col-md-11">
+                <input type="file" name="fFileUpload" />
+                <img src="~/Images/@Model.Hinh" style="height:250px;width:400px;"> (Ảnh hiện tại)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-1"><p style="text-align:left">Link Video</p></label>
+            <div class="col-md-11">
+                <input type="text" style="width:1000px;" name="sLinkVideo" value="@Model.LinkVideo" required />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-1"><p style="text-align:left">Danh mục</p></label>
+            <div class="col-md-11">
+                @*Hiển thị ViewBag.MaCD vào dropdownlist*@
+                @Html.DropDownList("IdDM")
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-1"><p style="text-align:left">Tag</p></label>
+            <div class="col-md-11">
+                <input type="text" style="width:1000px;" name="sTag" value="@Model.Tag" required />
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-1 col-md-11">
+                <input type="submit" value="LƯU THÔNG TIN" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+ }
+

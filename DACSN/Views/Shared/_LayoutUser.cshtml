@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="SHORTCUT ICON" href="~/Images/LogoBD.ico">
+    <link rel="stylesheet" type="text/css" href="~/CSS/css.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <style type="text/css">
+        body {
+            padding: 1px;
+            padding: 1px;
+        }
+
+        footer {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="container bg-td">
+            <div class="left">
+                <img src="~/Images/Logobinhduong.png">
+                <h1 class="slogan2 mt-3 keep-text-desaturate">Bình Dương</h1>
+                <h2 class="slogan1 keep-text-desaturate">TRANG TIN VỀ DỊCH BỆNH VIÊM ĐƯỜNG HÔ HẤP CẤP COVID-19</h2>
+            </div>
+            <div class="right">
+                <div id="lienhe"><a class="btn btn-danger mt-3 keep mr-6" id="btnCall" href="tel:19009095" tabindex="1" title="Nhấn enter để kich hoạt" style="color: white !important; margin-right: 6em;">Đường dây nóng <br>19009095</a></div>
+            </div>
+        </div>
+    </header>
+    <!--Nav-->
+    <nav class="navbar" style="background: rgb(42, 52, 119);">
+        <div class="container">
+            <ul class="navbar-nav text-uppercase">
+                <li class="nav-iteam active">
+                    <a class="nav-link keep-text-desaturate" tabindex="1" href="~/Home/Index" title="Nhấn Enter để kích hoạt"
+                       style="color: white !important;">TRANG CHỦ</a>
+                </li>
+                <li class="nav-iteam">
+                    <a class="nav-link keep-text-desaturate" tabindex="1" href="~/Home/ChiDao" title="Nhấn Enter để kích hoạt"
+                       style="color: white !important;">CHỈ ĐẠO CHỐNG DỊCH</a>
+                </li>
+                <li class="nav-iteam ">
+                    <a class="nav-link keep-text-desaturate" tabindex="1" href="~/Home/TinTuc" title="Nhấn Enter để kích hoạt"
+                       style="color: white !important;">TIN TỨC</a>
+                </li>
+                <li class="nav-iteam ">
+                    <a class="nav-link keep-text-desaturate" tabindex="1" href="~/Home/Video" title="Nhấn Enter để kích hoạt"
+                       style="color: white !important;">VIDEO</a>
+                </li>
+                <li class="nav-iteam ">
+                    <a class="nav-link keep-text-desaturate" tabindex="1" href="~/Home/Vaccine" title="Nhấn Enter để kích hoạt"
+                       style="color: white !important;">VACINE - TIÊM CHỦNG</a>
+                </li>
+                <li class="nav-iteam ">
+                    <a class="nav-link keep-text-desaturate" tabindex="1" href="~/KhaiBao/KhaiBao" title="Nhấn Enter để kích hoạt"
+                       style="color: white !important;">KHAI BÁO Y TẾ</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br />
+    <!--RenderBody-->
+    <div class="container">
+        <div class="row">
+            @RenderBody()
+        </div>
+    </div>
+
+    <!--Section-->
+    <section class="portlet">
+        <div class="container pad">
+            <span tabindex="1">
+                <h3 class="tle1">LIÊN KẾT</h3>
+            </span>
+            <div class="row">
+                <div class="col-lg-2 col-sm-6">
+                    <a tabindex="1" href="http://chinhphu.vn/portal/page/portal/chinhphu/trangchu" title="Nhấn Enter để kích hoạt">
+                        <img class="img-fluid img-thumbnail" src="~/Images/CongThongTinDienTuChinhPhu.jpg" alt="Cổng Thông Tin Điện Tử Chính Phủ" style="filter: none; backdrop-filter: none;">
+                    </a>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <a tabindex="1" href="https://moh.gov.vn/" title="Nhấn Enter để kích hoạt">
+                        <img class="img-fluid img-thumbnail" src="~/Images/CongThongTinDienTuBoYTe.jpg" alt="Cổng Thông Tin Điện Tử Bộ Y Tế" style="filter: none; backdrop-filter: none;">
+                    </a>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <a tabindex="1" href="https://suckhoedoisong.vn/" title="Nhấn Enter để kích hoạt">
+                        <img class="img-fluid img-thumbnail" src="~/Images/SucKhoeDoiSong.jpg" alt="Sức Khỏe Và Đời Sống" style="filter: none; backdrop-filter: none;">
+                    </a>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <a tabindex="1" href="https://giadinh.net.vn/" title="Nhấn Enter để kích hoạt">
+                        <img class="img-fluid img-thumbnail" src="~/Images/GiaDinh.jpg" alt="Đời Sống Gia Đình" style="filter: none; backdrop-filter: none;">
+                    </a>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <a tabindex="1" href="https://hotronguoicuutro.inhandao.vn/" title="Nhấn Enter để kích hoạt">
+                        <img class="img-fluid img-thumbnail" src="~/Images/HoTroCuuNguoi.jpg" alt="Hỗ Trợ Người Cứu Trợ" style="filter: none; backdrop-filter: none;">
+                    </a>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <a tabindex="1" href="https://antoancovid.vn/" title="Nhấn Enter để kích hoạt">
+                        <img class="img-fluid img-thumbnail" src="~/Images/AnToanCovid19.jpg" alt="An Toàn Covic19" style="filter: none; backdrop-filter: none;">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer style="background: rgb(42, 52, 119);">
+        <div class="container text-f pad keep-text-desaturate">
+            <h4 class="keep-text-desaturate">
+                TRANG TIN VỀ DỊCH BỆNH VIÊM ĐƯỜNG HÔ HẤP CẤP COVID-19
+            </h4>
+            <p class="keep-text-desaturate">
+                Phó Trưởng ban biên tập thường trực TS.BS. Hà Anh Đức, Chánh Văn phòng Bộ Y tế
+                <br>
+                Số 138A Giảng Võ - Ba Đình - Hà Nội
+                <br>
+                ĐT: 0246.273.2.273 |Fax:0243.8464.051
+                <br>
+                Email: banbientap@moh.gov.vn
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

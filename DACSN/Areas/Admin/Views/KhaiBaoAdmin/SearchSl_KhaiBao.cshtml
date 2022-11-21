@@ -1,0 +1,138 @@
+﻿@using DACSN.Models
+@using PagedList.Mvc;
+@model PagedList.PagedList<DACSN.Models.ThongTin_KhaiBao>
+@{
+    ViewBag.Title = "SearchSl_KhaiBao";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Kết quả tìm được</h2>
+<div class="form-group">
+    <label style="font-size:larger">Số lượng :</label> @ViewBag.Count
+</div>
+<table class="table">
+    <tr>
+        <th>
+            Họ và Tên
+        </th>
+        <th>
+            CMND / CCCD
+        </th>
+        <th>
+            Năm sinh
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().GioiTinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().QuocTich)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().DiaChi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().PhuongXa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().QuanHuyen)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().TinhThanh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().DienThoai)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().TinhTrang)
+            @*</th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().TiepXucCOVID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().NguoiVungCovid)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().NguoiSotHo)
+                </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.First().NgayKhaiBao)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.HoVaTen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CMND)
+            </td>
+            <td>
+                @Html.FormatValue(item.NamSinh, "{0:dd/MM/yyyy}")
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GioiTinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QuocTich)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiaChi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ward.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.District.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Province.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DienThoai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TinhTrang)
+            </td>
+            @*<td>
+                    @Html.DisplayFor(modelItem => item.TiepXucCOVID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NguoiVungCovid)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NguoiSotHo)
+                </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayKhaiBao)
+            </td>
+            @*<td>
+                    @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+                    @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+                </td>*@
+        </tr>
+    }
+
+</table>
+<!-- Thêm mã phân trang -->
+Trang @(Model.PageCount<Model.PageNumber?0:Model.PageNumber)/@Model.PageCount
+<div class="MenuTrang">
+
+    @Html.PagedListPager(Model, page => Url.Action("SearchSl_KhaiBao", new { page = page }))
+</div>
+<style>
+    .MenuTrang {
+        display: inline;
+        text-align: center;
+    }
+</style>
+@Html.ActionLink("Quay lại Trang", "KhaiBaoYTe", "KhaiBaoAdmin")

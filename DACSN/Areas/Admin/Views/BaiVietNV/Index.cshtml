@@ -1,0 +1,121 @@
+﻿@using DACSN.Models;
+@using PagedList.Mvc;
+@model PagedList.PagedList<DACSN.Models.BaiViet>
+
+@{
+    ViewBag.Title = "Tạo bài viết";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutNhanVien.cshtml";
+}
+
+<style type="text/css">
+    #test {
+        width: 450px;
+        height: 250px;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    element.style {
+        width: 900px;
+    }
+</style>
+
+@helper Truncate(string s, int length)
+{
+    if (s.Length < length)
+    {
+        @s
+    }
+    else
+    {
+        @s.Substring(0, length)<text>..</text>
+    }
+}
+<div class="container-fluid admin-artcles">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Danh sách bài viết</h1>
+    <br />
+    <p style="font-size:15px">
+        Số Lượng bài viết : @ViewBag.Ketqua
+    </p>
+    <div class="container">
+        <div class="row">
+            <div id="custom-search-input">
+                @using (Html.BeginForm("Search_BaiViet", "BaiVietNV", FormMethod.Get, new { @role = "search_BV" }))
+                {
+                    <div class="input-group col-md-12">
+
+                        <input type="text" class="  search-query form-control" placeholder="Search" name="strSearch1" value="@ViewBag.search_BV1" />
+                        <button type="submit" class="btn btn-danger">Tìm</button>
+
+                    </div>}
+            </div>
+        </div>
+    </div>
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <!--<h6 class="m-0 font-weight-bold text-primary">DataTables Articles</h6>-->
+        </div>
+
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Tiêu đề</th>
+                            <th>Tóm tắt</th>
+                            <th>Nội dung</th>
+                            <th>Ảnh bìa</th>
+                            <th>Ngày viết</th>
+                            <th>Người viết</th>
+                            <th>Danh mục</th>
+                            <th>Tag</th>
+
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td><div>@item.IdBV</div></td>
+                                <td style="max-width: 60px;"><div>@item.TieuDe</div></td>
+                                <td style="max-width: 120px;"><div>@item.TomTat</div></td>
+                                <td style="width:400px"><div id="test">@Html.Raw(item.NoiDung)</div></td>
+                                <td style="max-width: 200px;"><div><img style="max-width: 150px" src="~/Images/@item.Hinh" /></div></td>
+                                <td style="max-width: 100px;"><div>@item.NgayViet</div></td>
+                                <td style="max-width: 50px;"><div>@item.NguoiViet</div></td>
+                                <td style="max-width: 50px;"><div>@item.IdDM</div></td>
+                                <td style="max-width: 50px;"><div>@item.Tag</div></td>
+                                <td style="max-width: 100px;">
+                                    <div>@Html.ActionLink("Xem", "Details", new { id = item.IdBV })</div>
+                                    <div>@Html.ActionLink("Sửa", "Edit", new { id = item.IdBV })</div>
+                                    <div>
+                                        @Html.ActionLink("Xóa", "Delete", new { id = item.IdBV })
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+Trang @(Model.PageCount<Model.PageNumber?0:Model.PageNumber)/@Model.PageCount
+<div class="MenuTrang">
+
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
+</div>
+<style>
+    .MenuTrang {
+        display: inline;
+        text-align: center;
+    }
+</style>

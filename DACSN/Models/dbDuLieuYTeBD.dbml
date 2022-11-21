@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DuLieuYTeBD2" Class="dbDuLieuYTeBDDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=ADMIN\SQLEXPRESS;Initial Catalog=DuLieuYTeBD2;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="DuLieuYTeBD2ConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.BaiViet" Member="BaiViets">
+    <Type Name="BaiViet">
+      <Column Name="IdBV" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TieuDe" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="TomTat" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="NoiDung" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="NgayViet" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Hinh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NguoiViet" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="IdDM" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Tag" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="LinkVideo" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="DanhMuc_BaiViet" Member="DanhMuc" ThisKey="IdDM" OtherKey="IdDM" Type="DanhMuc" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CaNhiem" Member="CaNhiems">
+    <Type Name="CaNhiem">
+      <Column Name="Stt" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Tinh" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Tongsoca" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Homnay" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Tuvong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DanhMuc" Member="DanhMucs">
+    <Type Name="DanhMuc">
+      <Column Name="IdDM" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TenDM" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="DanhMuc_BaiViet" Member="BaiViets" ThisKey="IdDM" OtherKey="IdDM" Type="BaiViet" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DienBienDich" Member="DienBienDiches">
+    <Type Name="DienBienDich">
+      <Column Name="IDDB" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ThoiGian" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TieuDeDB" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CauTongKetDB" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ChiTietDB" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.District" Member="Districts">
+    <Type Name="District">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Type" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LatiLongTude" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ProvinceId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SortOrder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsPublished" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="District_ThongTin_KhaiBao" Member="ThongTin_KhaiBaos" ThisKey="Id" OtherKey="QuanHuyen" Type="ThongTin_KhaiBao" />
+      <Association Name="District_Ward" Member="Wards" ThisKey="Id" OtherKey="DistrictID" Type="Ward" />
+      <Association Name="Province_District" Member="Province" ThisKey="ProvinceId" OtherKey="Id" Type="Province" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NhanVien" Member="NhanViens">
+    <Type Name="NhanVien">
+      <Column Name="IdNV" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="MatKhauNV" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CodeResetPassword" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="HovaTen" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="DiaChi" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="SDT" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="NgayDangKy" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="IsEmailVerified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ActivationCode" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Province" Member="Provinces">
+    <Type Name="Province">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="Type" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="TelephoneCode" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ZipCode" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="CountryId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CountryCode" Type="System.String" DbType="NVarChar(2)" CanBeNull="true" />
+      <Column Name="SortOrder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsPublished" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="Province_District" Member="Districts" ThisKey="Id" OtherKey="ProvinceId" Type="District" />
+      <Association Name="Province_ThongTin_KhaiBao" Member="ThongTin_KhaiBaos" ThisKey="Id" OtherKey="TinhThanh" Type="ThongTin_KhaiBao" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TaiKhoan" Member="TaiKhoans">
+    <Type Name="TaiKhoan">
+      <Column Name="IdTK" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TenDN" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="MatKhau" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="Quyen" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ThongTin_KhaiBao" Member="ThongTin_KhaiBaos">
+    <Type Name="ThongTin_KhaiBao">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="HoVaTen" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CMND" Type="System.String" DbType="Char(15) NOT NULL" CanBeNull="false" />
+      <Column Name="NamSinh" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="GioiTinh" Type="System.String" DbType="NVarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="QuocTich" Type="System.String" DbType="NVarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="DiaChi" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="PhuongXa" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="QuanHuyen" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TinhThanh" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DienThoai" Type="System.String" DbType="Char(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="TinhTrang" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="TiepXucCOVID" Type="System.String" DbType="Char(5) NOT NULL" CanBeNull="false" />
+      <Column Name="NguoiVungCovid" Type="System.String" DbType="Char(5) NOT NULL" CanBeNull="false" />
+      <Column Name="NguoiSotHo" Type="System.String" DbType="Char(5) NOT NULL" CanBeNull="false" />
+      <Column Name="NgayKhaiBao" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Association Name="District_ThongTin_KhaiBao" Member="District" ThisKey="QuanHuyen" OtherKey="Id" Type="District" IsForeignKey="true" />
+      <Association Name="Province_ThongTin_KhaiBao" Member="Province" ThisKey="TinhThanh" OtherKey="Id" Type="Province" IsForeignKey="true" />
+      <Association Name="Ward_ThongTin_KhaiBao" Member="Ward" ThisKey="PhuongXa" OtherKey="Id" Type="Ward" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Ward" Member="Wards">
+    <Type Name="Ward">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Type" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LatiLongTude" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DistrictID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SortOrder" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IsPublished" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="Ward_ThongTin_KhaiBao" Member="ThongTin_KhaiBaos" ThisKey="Id" OtherKey="PhuongXa" Type="ThongTin_KhaiBao" />
+      <Association Name="District_Ward" Member="District" ThisKey="DistrictID" OtherKey="Id" Type="District" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
